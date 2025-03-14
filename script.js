@@ -70,7 +70,7 @@ let questions = [
     ]
   },
      {
-    numb: 6,
+    numb: 7,
    question: "Your Question is Here",
     answer: "Correct answer of the question is here",
     options: [
@@ -81,7 +81,7 @@ let questions = [
     ]
   },
      {
-    numb: 6,
+    numb: 8,
    question: "Your Question is Here",
     answer: "Correct answer of the question is here",
     options: [
@@ -92,7 +92,7 @@ let questions = [
     ]
   },
      {
-    numb: 6,
+    numb: 9,
    question: "Your Question is Here",
     answer: "Correct answer of the question is here",
     options: [
