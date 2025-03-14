@@ -7,3 +7,6 @@ sonarqube {
     property "sonar.projectKey", "sonar2"
   }
 }
+
+
+
