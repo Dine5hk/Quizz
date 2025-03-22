@@ -1,18 +1,8 @@
-# Use an official Node runtime as a parent image
-FROM node:14
+# Use an official NGINX image from Docker Hub
+FROM nginx:latest
 
-# Set the working directory inside the container
-WORKDIR /usr/src/app
+# Copy the project files into the container
+COPY . /usr/share/nginx/html
 
-# Copy package.json and install dependencies
-COPY package*.json ./
-RUN npm install
-
-# Copy the rest of your application code
-COPY . .
-
-# Expose port (adjust for your app)
-EXPOSE 8080
-
-# Run your application
-CMD ["npm", "start"]
+# Expose port 80 (default for HTTP)
+EXPOSE 80
